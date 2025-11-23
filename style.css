@@ -1,0 +1,275 @@
+/* style.css */
+
+/* Variáveis CSS */
+:root {
+    --cor-fundo-primaria: #1a1a1a; /* Preto quase puro */
+    --cor-fundo-secundaria: #282828; /* Cinza escuro para seções */
+    --cor-texto-primaria: #ffffff; /* Branco */
+    --cor-texto-secundaria: #cccccc; /* Cinza claro */
+    --cor-destaque-primaria: #f2a900; /* Laranja GTA */
+    --cor-destaque-secundaria: #cc0000; /* Vermelho GTA */
+    --cor-sombra: rgba(0, 0, 0, 0.7);
+    --cor-borda: #444444;
+    --font-gta: 'Impact', 'Arial Black', sans-serif; /* Fontes que remetem a GTA */
+    --font-padrao: 'Roboto', sans-serif;
+}
+
+/* Base */
+body {
+    font-family: var(--font-padrao);
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor-fundo-primaria);
+    color: var(--cor-texto-primaria);
+    line-height: 1.6;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Rockstar_Games_Logo.svg/2560px-Rockstar_Games_Logo.svg.png'); /* Logo Rockstar de fundo */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Efeito de Overlay para escurecer a imagem de fundo */
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Escurece a imagem de fundo */
+    z-index: -1; /* Fica abaixo do conteúdo */
+}
+
+/* Header */
+header {
+    background-color: rgba(0, 0, 0, 0.85); /* Fundo semi-transparente */
+    color: var(--cor-texto-primaria);
+    padding: 1.5rem 0;
+    text-align: center;
+    border-bottom: 2px solid var(--cor-destaque-primaria);
+    box-shadow: 0 4px 8px var(--cor-sombra);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    font-family: var(--font-gta);
+    font-size: 3rem;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 4px 4px 8px var(--cor-sombra), 2px 2px 0 var(--cor-destaque-secundaria);
+    color: var(--cor-destaque-primaria);
+}
+
+/* Main Content */
+main {
+    flex: 1; /* Permite que o conteúdo principal ocupe o espaço restante */
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Search Section */
+.search-section {
+    background-color: rgba(40, 40, 40, 0.9); /* Fundo mais escuro e semi-transparente */
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 15px var(--cor-sombra);
+    border: 1px solid var(--cor-borda);
+}
+
+.search-section input[type="text"] {
+    flex-grow: 1;
+    padding: 0.8rem 1rem;
+    border: 2px solid var(--cor-destaque-primaria);
+    border-radius: 5px;
+    background-color: var(--cor-fundo-secundaria);
+    color: var(--cor-texto-primaria);
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    max-width: 400px;
+}
+
+.search-section input[type="text"]::placeholder {
+    color: var(--cor-texto-secundaria);
+    opacity: 0.7;
+}
+
+.search-section input[type="text"]:focus {
+    outline: none;
+    border-color: var(--cor-destaque-secundaria);
+    box-shadow: 0 0 10px var(--cor-destaque-secundaria);
+}
+
+.search-section button {
+    padding: 0.8rem 1.5rem;
+    background-color: var(--cor-destaque-primaria);
+    color: var(--cor-texto-primaria);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px var(--cor-sombra);
+}
+
+.search-section button:hover {
+    background-color: var(--cor-destaque-secundaria);
+    transform: translateY(-2px);
+}
+
+/* Cards Container */
+#cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Mais flexível */
+    gap: 2rem;
+    padding: 1rem;
+    background-color: rgba(26, 26, 26, 0.8); /* Fundo levemente transparente para os cards */
+    border-radius: 8px;
+    box-shadow: 0 8px 20px var(--cor-sombra);
+    border: 1px solid var(--cor-borda);
+}
+
+/* Individual Card */
+.card {
+    background-color: var(--cor-fundo-secundaria);
+    border: 2px solid var(--cor-destaque-primaria);
+    border-radius: 10px;
+    box-shadow: 0 6px 12px var(--cor-sombra);
+    overflow: hidden;
+    display: flex; /* Para colocar imagem e texto lado a lado */
+    flex-direction: column; /* Coloca capa em cima do texto em telas menores */
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    padding-bottom: 1rem; /* Espaço para o link na parte inferior */
+}
+
+.card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 12px 25px rgba(255, 255, 255, 0.1), 0 0 20px var(--cor-destaque-primaria);
+}
+
+.card-capa {
+    width: 100%; /* Largura total do card */
+    max-height: 250px; /* Altura máxima da capa */
+    object-fit: cover; /* Cobre a área sem distorcer, cortando se necessário */
+    border-bottom: 2px solid var(--cor-destaque-primaria);
+    margin-bottom: 1rem;
+    filter: brightness(0.9) saturate(1.1); /* Um leve efeito */
+}
+
+.card-content {
+    padding: 0 1.5rem 1rem; /* Ajusta o padding para o link abaixo */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1; /* Ocupa o espaço restante */
+}
+
+.card h2 {
+    font-family: var(--font-gta);
+    color: var(--cor-destaque-primaria);
+    font-size: 1.8rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.8rem;
+    text-shadow: 2px 2px 4px var(--cor-sombra);
+}
+
+.card p {
+    color: var(--cor-texto-secundaria);
+    margin-bottom: 0.5rem;
+    flex-grow: 1; /* Faz a descrição ocupar o espaço */
+}
+
+.card .card-link {
+    display: inline-block;
+    background-color: var(--cor-destaque-secundaria);
+    color: var(--cor-texto-primaria);
+    padding: 0.7rem 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 3px 8px var(--cor-sombra);
+}
+
+.card .card-link:hover {
+    background-color: var(--cor-destaque-primaria);
+    transform: translateY(-2px);
+}
+
+/* Footer */
+footer {
+    background-color: rgba(0, 0, 0, 0.85); /* Fundo semi-transparente */
+    color: var(--cor-texto-secundaria);
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+    border-top: 2px solid var(--cor-destaque-primaria);
+    box-shadow: 0 -4px 8px var(--cor-sombra);
+}
+
+/* Responsividade */
+@media (min-width: 768px) {
+    .card {
+        flex-direction: row; /* Capa e conteúdo lado a lado */
+        text-align: left;
+    }
+
+    .card-capa {
+        width: 150px; /* Largura fixa para a capa no desktop */
+        min-width: 150px; /* Garante que a capa não encolha */
+        height: auto;
+        object-fit: cover;
+        border-right: 2px solid var(--cor-destaque-primaria);
+        border-bottom: none;
+        margin-right: 1.5rem;
+        margin-bottom: 0;
+    }
+
+    .card-content {
+        padding: 1.5rem;
+        text-align: left;
+    }
+}
+
+@media (max-width: 767px) {
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    .search-section {
+        flex-direction: column;
+    }
+
+    .search-section input[type="text"] {
+        width: 100%;
+        max-width: none;
+    }
+
+    .search-section button {
+        width: 100%;
+    }
+
+    #cards-container {
+        grid-template-columns: 1fr; /* Uma coluna em telas muito pequenas */
+    }
+}

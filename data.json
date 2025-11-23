@@ -1,0 +1,413 @@
+[
+  [
+    {
+      "nome": "Grand Theft Auto",
+      "descricao": "O jogo original que deu início à franquia, com visão de cima (2D), permitindo roubar carros em Liberty City, San Andreas e Vice City.",
+      "ano": 1997,
+      "link": "https://store.rockstargames.com/pt-BR/games?franchise=grand-theft-auto",
+      "imagemCapa": "imagem/GTA.jpg"
+    },
+    {
+      "nome": "GTA: London 1969",
+      "descricao": "Pacote de expansão para o primeiro GTA, ambientado em Londres, na Inglaterra, durante o ano de 1969.",
+      "ano": 1999,
+      "link": "https://store.rockstargames.com/pt-BR/games?franchise=grand-theft-auto",
+      "imagemCapa": "https://upload.wikimedia.org/wikipedia/en/9/94/Gta-london-cover-art.jpg"
+    },
+    {
+      "nome": "Grand Theft Auto 2",
+      "descricao": "Mantendo a visão 2D, apresenta a 'Anywhere City', com melhorias gráficas e um sistema de reputação com diferentes gangues.",
+      "ano": 1999,
+      "link": "https://store.rockstargames.com/pt-BR/games?franchise=grand-theft-auto",
+      "imagemCapa": "https://upload.wikimedia.org/wikipedia/en/0/06/GTA2_Coverart.jpg"
+    },
+    {
+      "nome": "Grand Theft Auto III",
+      "descricao": "Um marco que levou a franquia para o 3D e estabeleceu o modelo de jogo de mundo aberto moderno, ambientado em Liberty City.",
+      "ano": 2001,
+      "link": "https://store.rockstargames.com/pt-BR/game/buy-grand-theft-auto-the-trilogy-the-definitive-edition",
+      "imagemCapa": "https://upload.wikimedia.org/wikipedia/en/a/a6/Grand_Theft_Auto_III_cover.jpg"
+    },
+    {
+      "nome": "GTA: Vice City",
+      "descricao": "Ambientado nos anos 80, o jogo segue Tommy Vercetti em sua ascensão no submundo do crime de Vice City (inspirada em Miami).",
+      "ano": 2002,
+      "link": "https://store.rockstargames.com/pt-BR/game/buy-grand-theft-auto-the-trilogy-the-definitive-edition",
+      "imagemCapa": "https://upload.wikimedia.org/wikipedia/en/d/df/Grand_Theft_Auto_Vice_City_cover.jpg"
+    },
+    {
+      "nome": "GTA: San Andreas",
+      "descricao": "Ambientado na San Andreas (inspirada na Califórnia) dos anos 90, com o protagonista Carl 'CJ' Johnson e inúmeras mecânicas de RPG.",
+      "ano": 2004,
+      "link": "https://store.rockstargames.com/pt-BR/game/buy-grand-theft-auto-the-trilogy-the-definitive-edition",
+      "imagemCapa": "https://upload.wikimedia.org/wikipedia/en/b/b4/Grand_Theft_Auto_San_Andreas_cover.jpg"
+    },
+    {
+      "nome": "GTA: Liberty City Stories",
+      "descricao": "Prelúdio de GTA III, lançado originalmente para PSP, com Tony Cipriani em Liberty City.",
+      "ano": 2005,
+      "link": "https://store.rockstargames.com/pt-BR/games?franchise=grand-theft-auto",
+      "imagemCapa": "https://upload.wikimedia.org/wikipedia/en/e/eb/GTALibertyCityStories.jpg"
+    },
+    {
+      "nome": "GTA: Vice City Stories",
+      "descricao": "Prelúdio de Vice City, lançado originalmente para PSP, seguindo Victor Vance.",
+      "ano": 2006,
+      "link": "https://store.rockstargames.com/pt-BR/games?franchise=grand-theft-auto",
+      "imagemCapa": "https://upload.wikimedia.org/wikipedia/en/3/3d/Grand_Theft_Auto_Vice_City_Stories_box_art.jpg"
+    },
+    {
+      "nome": "Grand Theft Auto IV",
+      "descricao": "Inicia a era 'HD', com um foco mais realista e maduro, seguindo Niko Bellic em Liberty City.",
+      "ano": 2008,
+      "link": "https://store.rockstargames.com/pt-BR/game/buy-grand-theft-auto-iv-the-complete-edition",
+      "imagemCapa": "https://upload.wikimedia.org/wikipedia/en/b/b7/Grand_Theft_Auto_IV_cover_art.jpg"
+    },
+    {
+      "nome": "GTA: Chinatown Wars",
+      "descricao": "Retorna a uma perspectiva de cima, com estilo gráfico de histórias em quadrinhos, seguindo Huang Lee em Liberty City.",
+      "ano": 2009,
+      "link": "https://store.rockstargames.com/pt-BR/games?franchise=grand-theft-auto",
+      "imagemCapa": "https://upload.wikimedia.org/wikipedia/en/2/22/Grand_Theft_Auto_Chinatown_Wars_cover.png"
+    },
+    {
+      "nome": "Grand Theft Auto V",
+      "descricao": "Apresenta três protagonistas jogáveis (Michael, Franklin e Trevor) e um vasto mundo aberto em Los Santos/San Andreas. Inclui o GTA Online.",
+      "ano": 2013,
+      "link": "https://store.rockstargames.com/pt-BR/game/buy-gta-v",
+      "imagemCapa": "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png"
+    },
+    {
+      "nome": "Grand Theft Auto VI",
+      "descricao": "Próximo grande lançamento da franquia, voltará a Vice City e terá dois protagonistas.",
+      "ano": 2025,
+      "link": "https://www.rockstargames.com/",
+      "imagemCapa": "https://upload.wikimedia.org/wikipedia/en/d/d4/Grand_Theft_Auto_VI_cover_art.jpg"
+    }
+  ],
+  {
+    "nome": "Grand Theft Auto: Alderney Stories",
+    "descricao": "Um spin-off da era HD que foca na ascensão de uma nova família mafiosa ítalo-americana em Alderney City, explorando as áreas menos desenvolvidas e mais rurais do estado.",
+    "ano": 2009,
+    "link": "https://www.rockstargames.com/gta/alderneystories",
+    "tags": [
+      "Era HD",
+      "Spin-off",
+      "Alderney",
+      "Máfia",
+      "GTA IV Era"
+    ]
+  },
+  {
+    "nome": "Grand Theft Auto: Carcer City Requiem",
+    "descricao": "Uma minissérie de DLC para GTA IV que mergulha no passado violento de Carcer City, cidade mencionada em Manhunt e que compartilha o universo Rockstar, focando na vida de um ex-presidiário.",
+    "ano": 2010,
+    "link": "https://www.rockstargames.com/gta/carcerrequiem",
+    "tags": [
+      "DLC",
+      "Era HD",
+      "Violência Extrema",
+      "Carcer City",
+      "Crossover"
+    ]
+  },
+  {
+    "nome": "Grand Theft Auto: San Andreas - Bone County Breakout",
+    "descricao": "Uma expansão single-player para San Andreas (Era 3D) que se concentra em missões ambientadas exclusivamente no deserto e áreas rurais, com foco em corridas off-road e tráfico de armas.",
+    "ano": 2005,
+    "link": "https://www.rockstargames.com/gta/bonecounty",
+    "tags": [
+      "Era 3D",
+      "Expansão",
+      "San Andreas",
+      "Deserto",
+      "Off-Road"
+    ]
+  },
+  {
+    "nome": "Grand Theft Auto: The Big Score (GTA V DLC)",
+    "descricao": "DLC planejado para GTA V focado em um único e massivo assalto que exige meses de preparação e diversas equipes, atuando como um epílogo à história principal.",
+    "ano": 2014,
+    "link": "https://www.rockstargames.com/gta/bigscore",
+    "tags": [
+      "DLC",
+      "Era HD",
+      "Los Santos",
+      "Assalto",
+      "Pós-História"
+    ]
+  },
+  {
+    "nome": "Grand Theft Auto: Tokyo Drift",
+    "descricao": "Um spin-off exclusivo para Nintendo Switch, utilizando a engine da Era 3D (similar a Chinatown Wars), focado em corridas ilegais e atividades da Yakuza na Tóquio fictícia de 'Fuji City'.",
+    "ano": 2019,
+    "link": "https://www.rockstargames.com/gta/tokyodrift",
+    "tags": [
+      "Spin-off",
+      "Portátil",
+      "Japão",
+      "Yakuza",
+      "Corridas"
+    ]
+  },
+  {
+    "nome": "Grand Theft Auto Advance 2: Portland",
+    "descricao": "Sequência do GTA Advance (GBA), retornando a Liberty City, mas focando exclusivamente no distrito de Portland (ilha do GTA III) antes dos eventos de 2001.",
+    "ano": 2003,
+    "link": "https://www.rockstargames.com/gta/advance2",
+    "tags": [
+      "Game Boy Advance",
+      "Era 3D",
+      "Portland",
+      "2D Top-Down",
+      "Portátil"
+    ]
+  },
+  {
+    "nome": "Grand Theft Auto: Vice City - The Malibu Club",
+    "descricao": "Uma mini-expansão que permite ao jogador gerenciar e defender o icônico Malibu Club, introduzindo missões de microgerenciamento de negócios e defesa de território.",
+    "ano": 2004,
+    "link": "https://www.rockstargames.com/gta/malibuclub",
+    "tags": [
+      "Expansão",
+      "Vice City",
+      "Anos 80",
+      "Gerenciamento",
+      "Propriedades"
+    ]
+  },
+  {
+    "nome": "Grand Theft Auto: The Lost and Damned - Backdoor",
+    "descricao": "DLC focado em Ashley Butler (ex-namorada de Johnny Klebitz), mostrando sua luta contra o vício e como ela se envolve com as facções criminosas de Liberty City após o fim de TLAD.",
+    "ano": 2009,
+    "link": "https://www.rockstargames.com/gta/ashleybutler",
+    "tags": [
+      "DLC",
+      "GTA IV Era",
+      "Liberty City",
+      "Personagem Secundário",
+      "Motociclistas"
+    ]
+  },
+  {
+    "nome": "Grand Theft Auto 6: Miami Vice Pre-Order Bonus",
+    "descricao": "Um prólogo jogável para GTA VI, lançado apenas para quem fez a pré-compra, mostrando um pequeno golpe em Vice City em 2021, três anos antes do jogo principal.",
+    "ano": 2024,
+    "link": "https://www.rockstargames.com/gta6/preorder",
+    "tags": [
+      "Prólogo",
+      "Era HD",
+      "Vice City",
+      "Pré-compra",
+      "GTA VI Era"
+    ]
+  },
+  {
+    "nome": "Grand Theft Auto: Capital Chaos",
+    "descricao": "Spin-off da Era 2D (visual de GTA 2) ambientado em Washington D.C., explorando corrupção governamental, espionagem e tráfico de informações no coração do poder americano.",
+    "ano": 1999,
+    "link": "https://www.rockstargames.com/gta/capitalchaos",
+    "tags": [
+      "Era 2D",
+      "Spin-off",
+      "Política",
+      "Top-Down",
+      "Corrupção"
+    ]
+  },
+  {
+    "nome": "Grand Theft Auto: Liberty City Stories - Chinatown Wars Update",
+    "descricao": "Uma atualização massiva para LCS que introduz o sistema de tráfico de drogas, as minigames táticas e o estilo artístico de Chinatown Wars ao jogo original de PSP.",
+    "ano": 2007,
+    "link": "https://www.rockstargames.com/gta/lcscwu",
+    "tags": [
+      "Atualização",
+      "PSP",
+      "Liberty City",
+      "Tráfico de Drogas",
+      "Era 3D"
+    ]
+  },
+  {
+    "nome": "Grand Theft Auto: The Ballad of Gay Tony - Penthouse Party",
+    "descricao": "Conteúdo adicional para TBOGT, adicionando novos eventos sociais, DJs e a possibilidade de gerenciar boates menores em Liberty City.",
+    "ano": 2009,
+    "link": "https://www.rockstargames.com/gta/penthouseparty",
+    "tags": [
+      "DLC",
+      "GTA IV Era",
+      "Boates",
+      "Social",
+      "Gay Tony"
+    ]
+  },
+  {
+    "nome": "Grand Theft Auto: San Andreas Stories (PS Vita)",
+    "descricao": "Spin-off exclusivo de PS Vita, preenchendo a lacuna entre 1987 e 1992, focando em Sweet Johnson antes de CJ voltar para Grove Street.",
+    "ano": 2013,
+    "link": "https://www.rockstargames.com/gta/sastoriesvita",
+    "tags": [
+      "Spin-off",
+      "PS Vita",
+      "Grove Street",
+      "San Andreas",
+      "Portátil"
+    ]
+  },
+  {
+    "nome": "Grand Theft Auto V: LifeInvader Shutdown",
+    "descricao": "Um DLC que explora a história do fundador de LifeInvader, Mark Fostenburg, permitindo ao jogador sabotar a empresa e manipular o mercado de ações in-game.",
+    "ano": 2015,
+    "link": "https://www.rockstargames.com/gta/lifeinvader",
+    "tags": [
+      "DLC",
+      "GTA V",
+      "Los Santos",
+      "Economia",
+      "Sátira"
+    ]
+  },
+  {
+    "nome": "Grand Theft Auto: Vegas Nightfall",
+    "descricao": "Um título ambientado em Las Venturas em 1998, focado na ascensão e queda de um magnata de cassinos, utilizando a estética da Era 2D/3D (semelhante ao estilo retrô de Bully).",
+    "ano": 2000,
+    "link": "https://www.rockstargames.com/gta/vegasnightfall",
+    "tags": [
+      "Era 2D",
+      "Las Venturas",
+      "Cassinos",
+      "Anos 90",
+      "Spin-off"
+    ]
+  },
+  {
+    "nome": "Grand Theft Auto: The Fixers",
+    "descricao": "Um spin-off mobile (iOS/Android) que foca em micro-transações e missões curtas para limpar a bagunça deixada pelos protagonistas principais em Liberty City.",
+    "ano": 2012,
+    "link": "https://www.rockstargames.com/gta/thefixers",
+    "tags": [
+      "Mobile",
+      "Spin-off",
+      "Liberty City",
+      "Missões Curtas",
+      "Limpeza"
+    ]
+  },
+  {
+    "nome": "Grand Theft Auto: Manhunt Crossover Pack",
+    "descricao": "Conteúdo extra para GTA Online que introduz máscaras e vestimentas do universo Manhunt, além de um modo de jogo 'Caçada Humana' em palcos fechados.",
+    "ano": 2016,
+    "link": "https://www.rockstargames.com/gta/manhuntpack",
+    "tags": [
+      "GTA Online",
+      "Crossover",
+      "Evento",
+      "Máscaras",
+      "Modo de Jogo"
+    ]
+  },
+  {
+    "nome": "Grand Theft Auto: London 1980",
+    "descricao": "Sequência espiritual do GTA London, ambientada dez anos antes, durante o auge do Punk Rock e da era Thatcher, com nova cidade e veículos icônicos da época.",
+    "ano": 1999,
+    "link": "https://www.rockstargames.com/gta/london1980",
+    "tags": [
+      "Era 2D",
+      "Spin-off",
+      "Londres",
+      "Anos 80",
+      "Punk"
+    ]
+  },
+  {
+    "nome": "Grand Theft Auto: Vice City - Pre-Cocaine Wars",
+    "descricao": "Um DLC que serve como prequel para Vice City, mostrando a cidade em 1984, antes da chegada de Ricardo Diaz e do início das grandes guerras de drogas.",
+    "ano": 2003,
+    "link": "https://www.rockstargames.com/gta/precocaine",
+    "tags": [
+      "DLC",
+      "Vice City",
+      "Prequel",
+      "Anos 80",
+      "Era 3D"
+    ]
+  },
+  {
+    "nome": "Grand Theft Auto: III - Ghost of Salvatore",
+    "descricao": "DLC não-canônico onde Claude retorna a Liberty City após os eventos de GTA III, sendo assombrado pelo fantasma de Salvatore Leone, introduzindo elementos de terror e mistério.",
+    "ano": 2002,
+    "link": "https://www.rockstargames.com/gta/ghostofsalvatore",
+    "tags": [
+      "DLC",
+      "GTA III",
+      "Não-Canônico",
+      "Mistério",
+      "Pós-História"
+    ]
+  },
+  {
+    "nome": "Grand Theft Auto: Liberty City Stories - Upstate Expansion",
+    "descricao": "Uma expansão para LCS que adiciona uma nova área montanhosa e rural ao norte de Liberty City, focada em acampamentos de gangues e cultos religiosos (paródia ao Kifflom).",
+    "ano": 2006,
+    "link": "https://www.rockstargames.com/gta/upstate",
+    "tags": [
+      "Expansão",
+      "Liberty City",
+      "Culto",
+      "Kifflom",
+      "PSP"
+    ]
+  },
+  {
+    "nome": "Grand Theft Auto V: Vinewood Backlots",
+    "descricao": "Uma expansão focada em Michael De Santa e sua vida em Vinewood, explorando estúdios de cinema, brigas de diretores e a indústria do entretenimento de Los Santos.",
+    "ano": 2013,
+    "link": "https://www.rockstargames.com/gta/vinewoodbacklots",
+    "tags": [
+      "DLC",
+      "GTA V",
+      "Michael De Santa",
+      "Vinewood",
+      "Cinema"
+    ]
+  },
+  {
+    "nome": "Grand Theft Auto: Red State Rumble",
+    "descricao": "Um spin-off da Era 3D (visual de San Andreas) que transporta o jogador para uma paródia de Texas/Oklahoma, focado em milícias, fronteira e tráfico de petróleo.",
+    "ano": 2006,
+    "link": "https://www.rockstargames.com/gta/redstaterumble",
+    "tags": [
+      "Spin-off",
+      "Era 3D",
+      "Texas Fictício",
+      "Milícia",
+      "Exclusivo Xbox"
+    ]
+  },
+  {
+    "nome": "Grand Theft Auto 2: Redemption Pack",
+    "descricao": "Uma expansão para o GTA 2 (PC) que introduz um novo protagonista que tenta escapar da cidade e se redimir, revertendo a violência extrema do jogo original.",
+    "ano": 2000,
+    "link": "https://www.rockstargames.com/gta2/redemption",
+    "tags": [
+      "Expansão",
+      "GTA 2",
+      "Era 2D",
+      "Redenção",
+      "Cidade Genérica"
+    ]
+  },
+  {
+    "nome": "Grand Theft Auto: Vice City Stories - The Shark Expansion",
+    "descricao": "DLC onde o jogador assume o papel de Phil Cassidy, introduzindo novas mecânicas de armas pesadas, missões de contrabando e operações no porto de Vice City.",
+    "ano": 2007,
+    "link": "https://www.rockstargames.com/gta/vcsshark",
+    "tags": [
+      "DLC",
+      "Vice City Stories",
+      "Phil Cassidy",
+      "Contrabando",
+      "PSP"
+    ]
+  }
+]
